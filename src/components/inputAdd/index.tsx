@@ -13,9 +13,9 @@ export function InputAdd() {
         <Text style={styles.label}>Valor</Text>
         <TextInput  style={styles.textInput}></TextInput>
         <View style={styles.switchContainer}>
-            <Text style={styles.txtSwitch}>Entrada</Text>
-            <Switch/>
             <Text style={styles.txtSwitch}>Saida</Text>
+            <Switch/>
+            <Text style={styles.txtSwitch}>Entrada</Text>
         </View>
         <TouchableOpacity style={styles.btnAdd}>
             <Text style={styles.txtSwitch}>Adicionar</Text>
