@@ -24,7 +24,7 @@ export function InputAdd() {
             <Text style={styles.txtSwitch}>Entrada</Text>
         </View>
         <TouchableOpacity onPress={handleAddItem} style={styles.btnAdd}>
-            <Text style={styles.txtSwitch}>Adicionar</Text>
+            <Text style={styles.txtSwitch}>Adicionar </Text>
         </TouchableOpacity>
         
     </BlurView>
